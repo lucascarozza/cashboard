@@ -1,3 +1,12 @@
+import { HeaderContainer, HeaderContent, NewTransactionButton } from "./styles";
+
 export function Header() {
-    return <div>Hello World!</div>
+  return (
+    <HeaderContainer>
+      <HeaderContent>
+        <span>Flash Cash</span>
+        <NewTransactionButton>Nova Transação</NewTransactionButton>
+      </HeaderContent>
+    </HeaderContainer>
+  );
 }
