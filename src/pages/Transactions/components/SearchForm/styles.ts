@@ -30,10 +30,17 @@ export const SearchFormContainer = styled.form`
     cursor: pointer;
     transition: all 0.2s;
 
-    &:hover {
+    &:not(:disabled):hover {
       border: 1px solid ${(props) => props.theme["green-500"]};
       background: ${(props) => props.theme["green-500"]};
       color: ${(props) => props.theme.white};
+    }
+
+    &:disabled {
+      border: 1px solid ${(props) => props.theme["gray-600"]};
+      background: ${(props) => props.theme["gray-600"]};
+      color: ${(props) => props.theme.white};
+      cursor: not-allowed;
     }
   }
 `;

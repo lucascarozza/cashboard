@@ -6,7 +6,7 @@ export function Header() {
   return (
     <HeaderContainer>
       <HeaderContent>
-        <Logo>Flash Cash</Logo>
+        <Logo>Cashboard</Logo>
 
         <Dialog.Root>
           <Dialog.Trigger asChild>
