@@ -15,6 +15,14 @@
       "category": "Alimentação",
       "amount": 50,
       "createdAt": "2025-04-08T21:32:56.435Z"
+    },
+    {
+      "id": 3,
+      "description": "Ignite Rocketseat",
+      "type": "outcome",
+      "category": "Educação",
+      "amount": 1980,
+      "createdAt": "2025-04-03T09:29:46.435Z"
     }
   ]
 }
