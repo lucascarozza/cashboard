@@ -15,6 +15,11 @@ export const HeaderContent = styled.div`
   justify-content: space-between;
 `;
 
+export const Logo = styled.span`
+  font-size: 2rem;
+  font-weight: bold;
+`;
+
 export const NewTransactionButton = styled.button`
   height: 50px;
   border: 0;
