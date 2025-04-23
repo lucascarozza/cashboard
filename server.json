@@ -39,6 +39,22 @@
       "category": "Alimentação",
       "type": "outcome",
       "createdAt": "2025-04-09T21:07:44.065Z"
+    },
+    {
+      "id": "22d3",
+      "description": "Bolo de chocolate",
+      "amount": 20,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2025-04-13T17:34:24.071Z"
+    },
+    {
+      "id": "e3a3",
+      "description": "Café",
+      "amount": 12,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2025-04-19T22:28:46.432Z"
     }
   ]
 }
